@@ -1,0 +1,29 @@
+{
+  "name": "aquifer-run",
+  "version": "0.1.0",
+  "description": "Execute post-build commands on Aquifer projects.",
+  "main": "./run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aquifer/aquifer-run.git"
+  },
+  "author": "Peter Sieg <chasingmaxwell@gmail.com> (http://petersieg.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aquifer/aquifer-run/issues"
+  },
+  "homepage": "https://github.com/aquifer/aquifer-run",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-bump": "^1.0.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-help": "^1.6.1",
+    "gulp-jscs": "^3.0.1"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
+}
