@@ -118,7 +118,6 @@ module.exports = function(Aquifer, AquiferRunConfig) {
       });
     });
 
-
     functions.reduce(function (prev, curr) {
       return prev.then(curr);
     }, Promise.resolve())
