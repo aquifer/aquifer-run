@@ -11,7 +11,7 @@ aquifer extension-add aquifer-run
 ## Configuration
 Before using this extension, you'll need to set up your aquifer.json or aquifer.local.json file to include run profiles. See the below property definitions and example configuration.
 
-### Properties:
+### Properties
 
 - __defaultProfile__: The run profile to use if none is specified.
 - __profiles__: Any number of run profiles containing the following properties:
@@ -91,7 +91,7 @@ This example configuration includes a "local" profile and a "remote" testing pro
 }
 ```
 
-## Use
+## Usage
 This extension adds a `run` command to your Aquifer project. When invoked, it will run a group of defined commands called a "profile". At least one profile must be defined in [configuration](#configuration) before the run command will perform any actions. You can set a default profile with the `defaultProfile` configuration property. If no default profile is set you will need to pass the `--profile` or `-p` option to specify a profile name.
 
 ### Example usage
