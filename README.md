@@ -1,3 +1,7 @@
+# __aquifer-run will be deprecated with aquifer 1.0.0 which includes a run API in core.__
+
+The new run API provides feature parity with this extension, adds new functionality, and simplifies configuration. Check it out in the [1.0.0 branch](https://github.com/aquifer/aquifer/tree/1.0.0)!
+
 # aquifer-run
 After you build an aquifer project there are usually a number of commands you need to run in order to update the build against the codebase (examples: `drush updb` and `drush fra`). This extension allows you to define those commands in your aquifer.json file and run them with a single command: `aquifer run`.
 
